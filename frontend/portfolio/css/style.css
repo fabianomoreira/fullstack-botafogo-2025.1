@@ -1,0 +1,29 @@
+header {
+    text-align: center;
+    padding: 40px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #4A90E2, #1E2A38);
+    color: white
+}
+
+#contato a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #4A90E2;
+}
+
+#contato a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    color: #1E2A38
+}
+
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1rem;
+    padding: 2.5rem;
+    margin: 20px auto;
+    width: 800px;
+    background-color: lightgray;
+    box-shadow: 0 5px 8px rgb(0, 0, 0, 0.1);
+}
