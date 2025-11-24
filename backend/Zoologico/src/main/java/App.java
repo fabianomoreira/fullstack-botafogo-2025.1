@@ -9,11 +9,16 @@ public class App {
 		Cachorro tres = new Cachorro();
 		tres.setTamanho(35);
 		
+		Leao outro = new Leao();
+		
 		System.out.println("O cachorro tem o tamanho " + um.getTamanho());
 		
 		um.emitirSom(3);
 		dois.emitirSom(5);
 		tres.emitirSom(1);
+		
+		outro.dormir();
+		outro.comer();
 	}
 
 }
