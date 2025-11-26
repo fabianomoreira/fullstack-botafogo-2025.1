@@ -12,9 +12,18 @@ public class AppMatriz {
 		
 		filhotes[0].setTamanho(20);
 		filhotes[1].setTamanho(4);
-		filhotes[2].setTamanho(60);
+		filhotes[2].setTamanho(65);
 		
+		/*
 		filhotes[1].emitirSom(2);
+		filhotes[0].emitirSom(1);
+		filhotes[2].emitirSom(1);
+		*/
+		//for aperfeiçoado
+		for(Cachorro toto:filhotes) {
+			toto.emitirSom(1);
+			toto.correr();
+		}
 	}
 
 }

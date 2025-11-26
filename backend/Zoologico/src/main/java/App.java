@@ -19,6 +19,8 @@ public class App {
 		
 		outro.dormir();
 		outro.comer();
+		
+		Girafa girafa = new Girafa();
 	}
 
 }
