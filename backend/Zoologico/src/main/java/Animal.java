@@ -1,5 +1,5 @@
 
-public class Animal {
+public abstract class Animal {
 	private int peso;
 	private String cor;
 	private int tamanho;

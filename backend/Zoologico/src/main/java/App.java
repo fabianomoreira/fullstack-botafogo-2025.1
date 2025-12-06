@@ -11,6 +11,11 @@ public class App {
 		
 		Leao outro = new Leao();
 		
+		Hamster bicho = new Hamster();
+		
+		bicho.serAmigavel();
+		
+		
 		System.out.println("O cachorro tem o tamanho " + um.getTamanho());
 		
 		um.emitirSom(3);
