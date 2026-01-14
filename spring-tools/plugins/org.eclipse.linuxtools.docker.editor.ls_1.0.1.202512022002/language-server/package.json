@@ -1,5 +1,0 @@
-{
-  "dependencies": {
-    "dockerfile-language-server-nodejs": "^0.14.1"
-  }
-}
