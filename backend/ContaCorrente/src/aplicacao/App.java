@@ -17,6 +17,8 @@ public class App {
 		poupanca.setRendimento(0.6d);
 		poupanca.calcularRendimento();
 		System.out.println("O saldo é : " + poupanca.consultarSaldo());
+		poupanca.sacar(4000d);
+		System.out.println("O saldo é : " + poupanca.consultarSaldo());	
 		
 		System.out.println("------------------------------------------------------");
 		

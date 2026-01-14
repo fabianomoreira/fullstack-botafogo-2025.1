@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2018, 2020 Remain Software
+
+    This program and the accompanying materials
+    are made available under the terms of the Eclipse Public License 2.0
+    which accompanies this distribution, and is available at
+    https://www.eclipse.org/legal/epl-2.0/
+
+    SPDX-License-Identifier: EPL-2.0
+   
+    Contributors:
+        wim.jongman@remainsoftware.com - initial API and implementation
+ -->
+<feature
+      id="org.eclipse.tips.feature"
+      label="%featureName"
+      version="0.4.700.v20250611-0854"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.tips.ui"
+         version="0.3.600.v20250611-0854"/>
+
+   <plugin
+         id="org.eclipse.tips.core"
+         version="0.3.400.v20240413-1529"/>
+
+   <plugin
+         id="org.eclipse.tips.json"
+         version="0.3.400.v20240525-0701"/>
+
+   <plugin
+         id="org.eclipse.tips.ide"
+         version="0.3.600.v20250606-1304"/>
+
+</feature>

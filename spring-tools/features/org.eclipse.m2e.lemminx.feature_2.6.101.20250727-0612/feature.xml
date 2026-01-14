@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.m2e.lemminx.feature"
+      label="%featureName"
+      version="2.6.101.20250727-0612"
+      provider-name="%providerName">
+   <install-handler/>
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <plugin
+         id="org.eclipse.m2e.editor.lemminx"
+         version="2.0.901.20250727-0612"/>
+
+   <plugin
+         id="org.eclipse.m2e.editor.lemminx.bnd"
+         version="1.0.0.20250208-1755"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

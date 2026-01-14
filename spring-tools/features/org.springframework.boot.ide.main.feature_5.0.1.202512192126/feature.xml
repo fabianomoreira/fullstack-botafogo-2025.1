@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+	id="org.springframework.boot.ide.main.feature"
+	label="Spring Tools for Eclipse Main Feature"
+	version="5.0.1.202512192126"
+	provider-name="Broadcom">
+
+    <description>
+       %description
+    </description>
+
+    <copyright>
+       %copyright
+    </copyright>
+
+    <license url="%licenseUrl">
+       %license
+    </license>
+
+    <requires>
+       <import feature="org.springframework.ide.eclipse.xml.namespaces.feature" version="3.9.9" match="greaterOrEqual"/>
+    </requires>
+
+    <plugin
+          id="org.springframework.ide.eclipse.boot"
+          version="5.0.1.202512192126"/>
+
+    <plugin
+          id="org.springframework.ide.eclipse.boot.validation"
+          version="5.0.1.202512192126"/>
+         
+    <plugin
+          id="org.springframework.ide.eclipse.boot.launch"
+          version="5.0.1.202512192126"/>
+
+    <plugin
+          id="org.springframework.ide.eclipse.boot.wizard"
+          version="5.0.1.202512192126"/>
+
+    <plugin
+          id="org.springframework.ide.eclipse.boot.restart"
+          version="5.0.1.202512192126"/>
+
+    <plugin
+          id="org.springframework.ide.eclipse.imports"
+          version="5.0.1.202512192126"/>
+         
+    <plugin
+          id="org.springframework.ide.eclipse.buildship30"
+          version="5.0.1.202512192126"/>
+
+    <plugin
+          id="org.springframework.ide.eclipse.maven.pom"
+          version="5.0.1.202512192126"/>
+
+</feature>

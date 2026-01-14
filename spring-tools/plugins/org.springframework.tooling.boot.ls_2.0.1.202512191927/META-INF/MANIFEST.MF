@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.4
+Build-Jdk-Spec: 21
+Bundle-ManifestVersion: 2
+Bundle-Name: Spring Boot Language Server
+Bundle-Vendor: Broadcom
+Bundle-SymbolicName: org.springframework.tooling.boot.ls;singleton:=true
+Bundle-Version: 2.0.1.202512191927
+Require-Bundle: org.eclipse.jdt.launching;bundle-version="3.9.0",org.ecl
+ ipse.core.runtime;bundle-version="3.12.0",org.eclipse.ui.genericeditor;
+ bundle-version="1.0.0",org.eclipse.jface.text;bundle-version="3.11.100"
+ ,org.eclipse.jdt.ui;bundle-version="3.13.0",org.eclipse.tm4e.core;bundl
+ e-version="0.1.0",org.eclipse.tm4e.ui;bundle-version="0.1.0",org.eclips
+ e.lsp4e;bundle-version="0.15.0",org.eclipse.lsp4j;bundle-version="0.19.
+ 0",org.eclipse.lsp4j.jsonrpc;bundle-version="0.19.0",org.eclipse.ui.wor
+ kbench,org.eclipse.jface,org.springframework.tooling.ls.eclipse.commons
+ ;bundle-version="0.2.0",org.eclipse.core.resources,org.eclipse.ui,org.e
+ clipse.ui.ide,org.eclipse.jdt.core,org.eclipse.ui.editors;bundle-versio
+ n="3.11.100",org.springsource.ide.eclipse.commons.livexp,org.eclipse.ws
+ t.sse.ui;bundle-version="1.5.0";resolution:=optional,org.eclipse.jdt.an
+ notation,org.eclipse.mylyn.wikitext.markdown,org.eclipse.mylyn.wikitext
+ ,org.eclipse.lsp4e.jdt;bundle-version="0.10.0",org.springsource.ide.ecl
+ ipse.commons.boot.ls,org.springframework.ide.eclipse.editor.support,com
+ .google.guava,org.eclipse.core.expressions,org.springsource.ide.eclipse
+ .commons.core;bundle-version="4.17.0",org.springframework.tooling.jdt.l
+ s.commons;bundle-version="4.17.0",org.eclipse.jface.notifications,org.e
+ clipse.core.net
+Import-Package: com.google.common.base,com.google.common.collect,com.goo
+ gle.gson,com.google.gson.annotations,com.google.gson.reflect,com.google
+ .gson.stream,org.eclipse.jface.preference,org.osgi.framework
+Bundle-Activator: org.springframework.tooling.boot.ls.BootLanguageServer
+ Plugin
+Bundle-ActivationPolicy: lazy
+Eclipse-BundleShape: dir
+Automatic-Module-Name: org.springframework.tooling.boot.ls
+Bundle-License: Eclipse Public License v1.0;link="https://www.eclipse.or
+ g/legal/epl-v10.html"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=21))"
+

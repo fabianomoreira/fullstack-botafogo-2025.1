@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1766180186009" transient="false">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="org.eclipse.platform" version="4.38.0.v20251201-0920" url="features/org.eclipse.platform_4.38.0.v20251201-0920/">
+		</feature>
+		<feature id="org.eclipse.jgit.lfs" version="7.5.0.202512021534-r" url="features/org.eclipse.jgit.lfs_7.5.0.202512021534-r/">
+		</feature>
+		<feature id="org.eclipse.jgit.ssh.apache" version="7.5.0.202512021534-r" url="features/org.eclipse.jgit.ssh.apache_7.5.0.202512021534-r/">
+		</feature>
+		<feature id="org.eclipse.help" version="2.3.2400.v20251201-0920" url="features/org.eclipse.help_2.3.2400.v20251201-0920/" plugin-identifier="org.eclipse.help.base">
+		</feature>
+		<feature id="org.springframework.ide.eclipse.boot.dash.feature" version="5.0.1.202512192126" url="features/org.springframework.ide.eclipse.boot.dash.feature_5.0.1.202512192126/" plugin-identifier="org.springframework.ide.eclipse">
+		</feature>
+		<feature id="org.eclipse.wst.common.fproj" version="3.40.0.v202510300123" url="features/org.eclipse.wst.common.fproj_3.40.0.v202510300123/" plugin-identifier="org.eclipse.wst.common.project.facet.core">
+		</feature>
+		<feature id="org.eclipse.wst.server_core.feature" version="3.4.0.v202311141839" url="features/org.eclipse.wst.server_core.feature_3.4.0.v202311141839/">
+		</feature>
+		<feature id="org.jboss.tools.m2e.wro4j.feature" version="1.2.1.202301111328" url="features/org.jboss.tools.m2e.wro4j.feature_1.2.1.202301111328/" plugin-identifier="org.jboss.tools.m2e.wro4j.core">
+		</feature>
+		<feature id="org.springframework.tooling.boot.ls.feature" version="5.0.1.202512191927" url="features/org.springframework.tooling.boot.ls.feature_5.0.1.202512191927/">
+		</feature>
+		<feature id="org.eclipse.wildwebdeveloper.feature" version="1.4.0.202511281851" url="features/org.eclipse.wildwebdeveloper.feature_1.4.0.202511281851/">
+		</feature>
+		<feature id="org.eclipse.jgit" version="7.5.0.202512021534-r" url="features/org.eclipse.jgit_7.5.0.202512021534-r/">
+		</feature>
+		<feature id="org.eclipse.buildship" version="3.1.10.v20240802-1314" url="features/org.eclipse.buildship_3.1.10.v20240802-1314/" plugin-identifier="org.eclipse.buildship.branding">
+		</feature>
+		<feature id="org.eclipse.justj.openjdk.hotspot.jre.full" version="25.0.1.v20251108-1451" url="features/org.eclipse.justj.openjdk.hotspot.jre.full_25.0.1.v20251108-1451/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.extras.feature" version="1.4.3000.v20251124-1504" url="features/org.eclipse.equinox.p2.extras.feature_1.4.3000.v20251124-1504/">
+		</feature>
+		<feature id="org.springframework.boot.ide.main.feature" version="5.0.1.202512192126" url="features/org.springframework.boot.ide.main.feature_5.0.1.202512192126/">
+		</feature>
+		<feature id="org.eclipse.linuxtools.docker.editor.ls.feature" version="5.21.0.202512022002" url="features/org.eclipse.linuxtools.docker.editor.ls.feature_5.21.0.202512022002/">
+		</feature>
+		<feature id="org.eclipse.jdt" version="3.20.400.v20251201-1407" url="features/org.eclipse.jdt_3.20.400.v20251201-1407/">
+		</feature>
+		<feature id="org.springframework.ide.eclipse.xml.namespaces.feature" version="5.0.1.202512192126" url="features/org.springframework.ide.eclipse.xml.namespaces.feature_5.0.1.202512192126/" plugin-identifier="org.springframework.ide.eclipse">
+		</feature>
+		<feature id="org.eclipse.e4.rcp" version="4.38.0.v20251126-0427" url="features/org.eclipse.e4.rcp_4.38.0.v20251126-0427/">
+		</feature>
+		<feature id="org.eclipse.jst.server_adapters.feature" version="3.39.0.v202508220455" url="features/org.eclipse.jst.server_adapters.feature_3.39.0.v202508220455/">
+		</feature>
+		<feature id="org.eclipse.wst.server_userdoc.feature" version="3.3.300.v201901310132" url="features/org.eclipse.wst.server_userdoc.feature_3.3.300.v201901310132/">
+		</feature>
+		<feature id="org.eclipse.m2e.lemminx.feature" version="2.6.101.20250727-0612" url="features/org.eclipse.m2e.lemminx.feature_2.6.101.20250727-0612/">
+		</feature>
+		<feature id="org.eclipse.tips.feature" version="0.4.700.v20250611-0854" url="features/org.eclipse.tips.feature_0.4.700.v20250611-0854/">
+		</feature>
+		<feature id="org.eclipse.egit.gitflow.feature" version="7.5.0.202512021534-r" url="features/org.eclipse.egit.gitflow.feature_7.5.0.202512021534-r/" plugin-identifier="org.eclipse.egit.gitflow">
+		</feature>
+		<feature id="org.eclipse.m2e.logback.feature" version="2.7.200.20251018-1026" url="features/org.eclipse.m2e.logback.feature_2.7.200.20251018-1026/" plugin-identifier="org.eclipse.m2e.core">
+		</feature>
+		<feature id="org.eclipse.m2e.wtp.feature" version="1.6.1.20231024-1618" url="features/org.eclipse.m2e.wtp.feature_1.6.1.20231024-1618/" plugin-identifier="org.eclipse.m2e.wtp">
+		</feature>
+		<feature id="org.eclipse.wst.server_adapters.feature" version="3.39.0.v202508222246" url="features/org.eclipse.wst.server_adapters.feature_3.39.0.v202508222246/">
+		</feature>
+		<feature id="org.eclipse.wildwebdeveloper.embedder.node.feature" version="1.2.3.202510292239" url="features/org.eclipse.wildwebdeveloper.embedder.node.feature_1.2.3.202510292239/">
+		</feature>
+		<feature id="org.eclipse.egit" version="7.5.0.202512021534-r" url="features/org.eclipse.egit_7.5.0.202512021534-r/">
+		</feature>
+		<feature id="org.eclipse.linuxtools.docker.feature" version="5.21.0.202512022002" url="features/org.eclipse.linuxtools.docker.feature_5.21.0.202512022002/">
+		</feature>
+		<feature id="org.eclipse.mylyn.wikitext.feature" version="4.9.0.v20251119-1306" url="features/org.eclipse.mylyn.wikitext.feature_4.9.0.v20251119-1306/" plugin-identifier="org.eclipse.mylyn.wikitext">
+		</feature>
+		<feature id="org.eclipse.jdt.bcoview.feature" version="1.2.700.v20250114-1355" url="features/org.eclipse.jdt.bcoview.feature_1.2.700.v20250114-1355/">
+		</feature>
+		<feature id="org.eclipse.jgit.gpg.bc" version="7.5.0.202512021534-r" url="features/org.eclipse.jgit.gpg.bc_7.5.0.202512021534-r/">
+		</feature>
+		<feature id="org.eclipse.epp.mpc" version="1.13.0.v20250816-1241" url="features/org.eclipse.epp.mpc_1.13.0.v20250816-1241/" plugin-identifier="org.eclipse.epp.mpc.ui">
+		</feature>
+		<feature id="org.eclipse.jgit.http.apache" version="7.5.0.202512021534-r" url="features/org.eclipse.jgit.http.apache_7.5.0.202512021534-r/">
+		</feature>
+		<feature id="org.eclipse.jst.server_adapters.ext.feature" version="3.4.1400.v202504140102" url="features/org.eclipse.jst.server_adapters.ext.feature_3.4.1400.v202504140102/">
+		</feature>
+		<feature id="org.eclipse.jst.common.fproj.enablement.jdt" version="3.40.0.v202509230407" url="features/org.eclipse.jst.common.fproj.enablement.jdt_3.40.0.v202509230407/" plugin-identifier="org.eclipse.jst.common.project.facet.core">
+		</feature>
+		<feature id="org.eclipse.terminal.feature" version="1.0.100.v20251015-0620" url="features/org.eclipse.terminal.feature_1.0.100.v20251015-0620/">
+		</feature>
+		<feature id="org.sonatype.m2e.egit.feature" version="0.17.0.202209271423" url="features/org.sonatype.m2e.egit.feature_0.17.0.202209271423/" plugin-identifier="org.sonatype.m2e.egit">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.user.ui" version="2.4.3000.v20251124-1504" url="features/org.eclipse.equinox.p2.user.ui_2.4.3000.v20251124-1504/">
+		</feature>
+		<feature id="org.springframework.boot.ide.branding.feature" version="5.0.1.202512192126" url="features/org.springframework.boot.ide.branding.feature_5.0.1.202512192126/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.core.feature" version="1.7.900.v20251124-1504" url="features/org.eclipse.equinox.p2.core.feature_1.7.900.v20251124-1504/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.rcp.feature" version="1.4.3000.v20251124-1504" url="features/org.eclipse.equinox.p2.rcp.feature_1.4.3000.v20251124-1504/">
+		</feature>
+		<feature id="org.eclipse.rcp" version="4.38.0.v20251201-0920" url="features/org.eclipse.rcp_4.38.0.v20251201-0920/">
+		</feature>
+		<feature id="org.eclipse.wst.server_ui.feature" version="3.3.1900.v202508220455" url="features/org.eclipse.wst.server_ui.feature_3.3.1900.v202508220455/">
+		</feature>
+		<feature id="org.eclipse.linuxtools.jdt.docker.launcher.feature" version="5.21.0.202512022002" url="features/org.eclipse.linuxtools.jdt.docker.launcher.feature_5.21.0.202512022002/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.discovery.feature" version="1.3.900.v20250616-0711" url="features/org.eclipse.equinox.p2.discovery.feature_1.3.900.v20250616-0711/">
+		</feature>
+		<feature id="org.eclipse.pde" version="3.16.500.v20251201-0920" url="features/org.eclipse.pde_3.16.500.v20251201-0920/">
+		</feature>
+		<feature id="org.eclipse.m2e.feature" version="2.10.0.20251127-1007" url="features/org.eclipse.m2e.feature_2.10.0.20251127-1007/" plugin-identifier="org.eclipse.m2e.core">
+		</feature>
+		<feature id="org.eclipse.wildwebdeveloper.xml.feature" version="1.3.8.202511131403" url="features/org.eclipse.wildwebdeveloper.xml.feature_1.3.8.202511131403/">
+		</feature>
+	</site>
+</config>

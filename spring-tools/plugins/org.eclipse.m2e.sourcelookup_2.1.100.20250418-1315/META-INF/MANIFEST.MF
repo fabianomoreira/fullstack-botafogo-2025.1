@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.3
+Build-Jdk-Spec: 21
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.eclipse.m2e.sourcelookup;singleton:=true
+Bundle-Version: 2.1.100.20250418-1315
+Bundle-Vendor: Eclipse.org - m2e
+Bundle-Name: M2E Source Lookup Core
+Require-Bundle: org.eclipse.m2e.core;bundle-version="[2.0.0,3.0.0)",org.
+ eclipse.jdt.core;bundle-version="3.7.0",org.eclipse.jdt.launching;bundl
+ e-version="3.9.0",org.eclipse.core.runtime;bundle-version="3.7.0",org.e
+ clipse.debug.ui;bundle-version="3.10.0"
+Bundle-ActivationPolicy: lazy
+Eclipse-BundleShape: dir
+Export-Package: org.eclipse.m2e.sourcelookup.internal.launch;x-friends:=
+ "org.eclipse.m2e.sourcelookup.ui,org.eclipse.m2e.binaryproject"
+Automatic-Module-Name: org.eclipse.m2e.sourcelookup
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse-m2e/m2e-cor
+ e.git;path="org.eclipse.m2e.sourcelookup";commitId=c23bb6a6e7e7b71b40e4
+ 2d8b26c5931f50f6c4cb
+Bundle-License: EPL-2.0;link="https://www.eclipse.org/legal/epl-v20.html
+ "
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=21))"
+

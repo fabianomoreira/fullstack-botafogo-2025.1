@@ -1,0 +1,26 @@
+Signature-Version: 1.0
+Created-By: 11.0.24 (Eclipse Adoptium)
+SHA-256-Digest-Manifest: ouwzsl3I/Xbz6n4WdbU1CpyLNHaQwI6+j2+criHqpRY=
+SHA-256-Digest-Manifest-Main-Attributes: E6T7eZRMkdU3lOMa4g46UZCYvUOoBa5
+ q4OxFfFnVZ7c=
+
+Name: about.html
+SHA-256-Digest: VkBpxYkgR2aYq5bEWmJnDGxaECMroH8SiODouQCaGpg=
+
+Name: os/win32/x86_64/starter.exe
+SHA-256-Digest: NbCqdAz5QD3LPcgv7lRQLZClfheDy1579bqoB4Z2fR8=
+
+Name: META-INF/maven/org.eclipse.cdt/org.eclipse.cdt.core.win32.x86_64/p
+ om.properties
+SHA-256-Digest: s/BU37DP2qwujzj+gmF1tEJgtEsOo96EwUSBku7vXx8=
+
+Name: os/win32/x86_64/spawner.dll
+SHA-256-Digest: vqhu+IKJSV7MlE+HSLVJZnXA7iKs5Rp1+vcUHM40CiA=
+
+Name: plugin.properties
+SHA-256-Digest: zPJK1YdtNARP93mbotzv3PMRpUHPseR2/heSZF/Q1hA=
+
+Name: META-INF/maven/org.eclipse.cdt/org.eclipse.cdt.core.win32.x86_64/p
+ om.xml
+SHA-256-Digest: JMR+p8uhBPuWLVlDyzT0GL4n/Q+sHI/NsCCm0Uxh/D4=
+

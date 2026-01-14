@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wildwebdeveloper.embedder.node.feature"
+      label="%name"
+      version="1.2.3.202510292239"
+      provider-name="Eclipse Wild Web Developer project">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.wildwebdeveloper.embedder.node"
+         download-size="12"
+         install-size="23"
+         version="1.0.8.202505091735"/>
+
+   <plugin
+         id="org.eclipse.wildwebdeveloper.embedder.node.linux.x86_64"
+         os="linux"
+         ws="gtk"
+         arch="x86_64"
+         download-size="55115"
+         install-size="55402"
+         version="1.1.7.202510292239"
+         fragment="true"/>
+
+   <plugin
+         id="org.eclipse.wildwebdeveloper.embedder.node.linux.aarch64"
+         os="linux"
+         ws="gtk"
+         arch="aarch64"
+         download-size="54931"
+         install-size="55246"
+         version="1.1.7.202510292239"
+         fragment="true"/>
+
+   <plugin
+         id="org.eclipse.wildwebdeveloper.embedder.node.win32.x86_64"
+         os="win32"
+         ws="win32"
+         arch="x86_64"
+         download-size="33615"
+         install-size="34728"
+         version="1.1.7.202510292239"
+         fragment="true"/>
+
+   <plugin
+         id="org.eclipse.wildwebdeveloper.embedder.node.win32.aarch64"
+         os="win32"
+         ws="win32"
+         arch="aarch64"
+         download-size="29460"
+         install-size="30571"
+         version="1.0.3.202510292239"
+         fragment="true"/>
+
+   <plugin
+         id="org.eclipse.wildwebdeveloper.embedder.node.macos.x86_64"
+         os="macosx"
+         arch="x86_64"
+         download-size="49479"
+         install-size="49899"
+         version="1.1.7.202510292239"
+         fragment="true"/>
+
+   <plugin
+         id="org.eclipse.wildwebdeveloper.embedder.node.macos.aarch64"
+         os="macosx"
+         arch="aarch64"
+         download-size="48351"
+         install-size="48759"
+         version="1.1.7.202510292239"
+         fragment="true"/>
+
+</feature>

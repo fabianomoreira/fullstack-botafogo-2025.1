@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2007, 2025 David Green and others.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Eclipse Public License v2.0
+    which accompanies this distribution, and is available at
+    https://www.eclipse.org/legal/epl-2.0/
+
+    SPDX-License-Identifier: EPL-2.0
+
+    Contributors:
+        David Green - initial API and implementation
+        ArSysOp - ongoing support
+-->
+<feature
+      id="org.eclipse.mylyn.wikitext.feature"
+      label="%featureName"
+      version="4.9.0.v20251119-1306"
+      provider-name="%providerName"
+      plugin="org.eclipse.mylyn.wikitext">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext"
+         version="4.9.0.v20250920-1858"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.ant"
+         version="4.9.0.v20250920-1858"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.osgi"
+         version="4.9.0.v20250920-1858"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.asciidoc"
+         version="4.9.0.v20250920-1858"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.textile"
+         version="4.9.0.v20250920-1858"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.html"
+         version="4.9.0.v20250920-1858"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.markdown"
+         version="4.9.0.v20250920-1858"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.mediawiki"
+         version="4.9.0.v20250920-1858"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.confluence"
+         version="4.9.0.v20250920-1858"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.tracwiki"
+         version="4.9.0.v20250920-1858"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.twiki"
+         version="4.9.0.v20250920-1858"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.ui"
+         version="4.9.0.v20250920-1858"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.help.ui"
+         version="4.9.0.v20251119-1306"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.asciidoc.ui"
+         version="4.9.0.v20250920-1858"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.textile.ui"
+         version="4.9.0.v20250920-1858"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.markdown.ui"
+         version="4.9.0.v20250920-1858"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.mediawiki.ui"
+         version="4.9.0.v20250920-1858"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.confluence.ui"
+         version="4.9.0.v20250920-1858"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.tracwiki.ui"
+         version="4.9.0.v20250920-1858"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.twiki.ui"
+         version="4.9.0.v20250920-1858"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.tasks.ui"
+         version="4.9.0.v20250920-1858"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.context.ui"
+         version="4.9.0.v20250920-1858"/>
+
+</feature>
