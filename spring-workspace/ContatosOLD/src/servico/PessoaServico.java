@@ -10,6 +10,18 @@ import modelo.Pessoa;
 public class PessoaServico {
 	PessoaDAO dao = new PessoaDAO();
 	
+	public List<Pessoa> buscar(String criterio){
+		return dao.buscar(criterio);
+	}
+	
+	public Pessoa buscarPorId(int id) {
+		return dao.buscarPorId(id);
+	}
+	
+	public boolean excluir(int id) {
+		return dao.excluir(id);
+	}
+	
 	public void testarConexao() {
 		System.out.println(Dao.getStatus());
 		

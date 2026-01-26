@@ -1,5 +1,7 @@
 package aplicacao;
 
+import java.util.List;
+
 import modelo.Pessoa;
 import servico.PessoaServico;
 
@@ -32,6 +34,30 @@ public class App {
 
 		System.out.println("------------------------------ LISTAR");
 		servico.listar();
+		
+		System.out.println("------------------------------ EXCLUIR");
+		servico.excluir(13);
+		
+		System.out.println("------------------------------ LISTAR");
+		servico.listar();
+		
+		System.out.println("------------------------------ CONSULTAR POR ID");
+		Pessoa pessoaConsulta = servico.buscarPorId(1);
+		
+		if(pessoaConsulta.getId() <= 0) {
+			System.out.println("Registro não encontrado!");
+		} else {
+			System.out.println(pessoaConsulta);
+		}
+		
+		System.out.println("------------------------------ CONSULTAR POR CRITÉRIO");
+		List<Pessoa> lista = servico.buscar("Luc");
+		
+		if(lista.isEmpty()) {
+			System.out.println("Não existem registros que atendam ao critério informado!");
+		} else {
+			System.out.println(lista);
+		}
 	}
 
 }
