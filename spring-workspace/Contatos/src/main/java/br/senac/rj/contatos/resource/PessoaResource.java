@@ -17,20 +17,16 @@ public class PessoaResource {
     @Autowired
     PessoaService service;
 
+    @RequestMapping(method = RequestMethod.GET)
+    public ResponseEntity<List<Pessoa>> findAll(){
+        List<Pessoa> obj = service.listar();
+        return ResponseEntity.ok().body(obj);
+    }
+
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public ResponseEntity<?> find(@PathVariable Integer id){
         Pessoa obj = service.buscar(id);
         return ResponseEntity.ok().body(obj);
     }
 
-    @RequestMapping(method = RequestMethod.GET)
-    public List<Pessoa> listar(){
-        List<Pessoa> listaDePessoas;
-
-        PessoaService service = new PessoaService();
-
-        listaDePessoas = service.listarPessoas();
-
-        return listaDePessoas;
-    }
 }

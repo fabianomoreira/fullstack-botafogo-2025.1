@@ -14,6 +14,10 @@ public class PessoaService {
     @Autowired
     private PessoaRepository repo;
 
+    public List<Pessoa> listar(){
+        return repo.findAll();
+    }
+
     public Pessoa buscar(Integer id){
         Optional<Pessoa> obj = repo.findById(id);
 
