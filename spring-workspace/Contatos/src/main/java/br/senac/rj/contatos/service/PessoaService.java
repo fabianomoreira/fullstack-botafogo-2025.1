@@ -14,6 +14,19 @@ public class PessoaService {
     @Autowired
     private PessoaRepository repo;
 
+    public Pessoa alterar(Pessoa obj){
+        return repo.save(obj);
+    }
+
+    public Pessoa incluir(Pessoa obj){
+        obj.setId(null);
+        return repo.save(obj);
+    }
+
+    public void apagar(Integer id){
+        repo.deleteById(id);
+    }
+
     public List<Pessoa> listar(){
         return repo.findAll();
     }
