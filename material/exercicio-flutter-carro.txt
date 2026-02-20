@@ -1,0 +1,15 @@
+1 - carro.dat
+Classe com construtor que recebe a velocidade máxima...
+Exemplo:
+  velocidade máxima: 160
+  aceleração de 15
+  frenagem de 7
+  
+velocidadeMaxima
+velocidadeAtual
+
+acelear()
+frear()
+estaNoLimite()
+
+2 - app.dart
