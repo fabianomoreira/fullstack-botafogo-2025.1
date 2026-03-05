@@ -1,23 +1,25 @@
 import 'package:flutter/material.dart';
+import 'package:perguntas/questao.dart';
 
-main() => runApp(PerguntaApp());
+main() => runApp(_PerguntaApp());
 
-class PerguntaAppState extends State<PerguntaApp>{
-  var perguntaSelecionada = 0;
+class _PerguntaAppState extends State<_PerguntaApp>{
+  var _perguntaSelecionada = 0;
+  final _perguntas = [
+    'Qual é a sua cor favorita?',
+    'Qual é o seu animal favorito?',
+    'Qual seu instrutor favorito?'
+  ];
 
   void responder(){
-    setState(() {
-      perguntaSelecionada++;      
-    });
-
-    print(perguntaSelecionada);
+    if (_perguntaSelecionada < (_perguntas.length - 1)) {
+      setState(() {
+        _perguntaSelecionada++;      
+      });
+    }
   }
 
   Widget build(BuildContext context){
-    final perguntas = [
-      'Qual é a sua cor favorita?',
-      'Qual é o seu animal favorito?'
-    ];
 
     return MaterialApp(
       home: Scaffold(
@@ -26,7 +28,7 @@ class PerguntaAppState extends State<PerguntaApp>{
         ),
         body: Column(
           children: <Widget>[
-            Text(perguntas[perguntaSelecionada]),
+            Questao(_perguntas[_perguntaSelecionada]),
             ElevatedButton(
               onPressed: responder, 
               child: Text('Resposta 1'),
@@ -55,9 +57,9 @@ class PerguntaAppState extends State<PerguntaApp>{
   }  
 }
 
-class PerguntaApp extends StatefulWidget{
+class _PerguntaApp extends StatefulWidget{
   @override
-  State<PerguntaApp> createState(){
-    return PerguntaAppState();
+  State<_PerguntaApp> createState(){
+    return _PerguntaAppState();
   }
 }
