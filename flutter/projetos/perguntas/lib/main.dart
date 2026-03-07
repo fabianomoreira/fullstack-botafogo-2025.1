@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:perguntas/questao.dart';
+import 'package:perguntas/resposta.dart';
 
-main() => runApp(_PerguntaApp());
+void main() => runApp(_PerguntaApp());
 
 class _PerguntaAppState extends State<_PerguntaApp>{
   var _perguntaSelecionada = 0;
@@ -19,37 +20,22 @@ class _PerguntaAppState extends State<_PerguntaApp>{
     }
   }
 
+  @override
   Widget build(BuildContext context){
-
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
+          backgroundColor: Theme.of(context).colorScheme.primary,
+          foregroundColor: Theme.of(context).colorScheme.onPrimary,
           title: Text('Perguntas e Respostas'),
         ),
         body: Column(
           children: <Widget>[
             Questao(_perguntas[_perguntaSelecionada]),
-            ElevatedButton(
-              onPressed: responder, 
-              child: Text('Resposta 1'),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.blue,
-                foregroundColor: Colors.white),
-              ),
-            ElevatedButton(
-              onPressed: () {}, 
-              child: Text('Resposta 2'),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.lightBlue,
-                foregroundColor: Colors.white),
-              ),
-            ElevatedButton(
-              onPressed: () {}, 
-              child: Text('Resposta 3'),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.red,
-                foregroundColor: Colors.white),
-              ),              
+            Resposta('Verde', responder),
+            Resposta('Azul', responder),
+            Resposta('Amarelo', responder),
+            Resposta('Branco', responder)          
           ],
         )
       ),
