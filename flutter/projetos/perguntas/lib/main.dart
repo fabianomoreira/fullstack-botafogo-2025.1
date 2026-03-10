@@ -1,23 +1,37 @@
 import 'package:flutter/material.dart';
 import 'package:perguntas/questao.dart';
 import 'package:perguntas/resposta.dart';
+import 'package:perguntas/resultado.dart';
 
 void main() => runApp(_PerguntaApp());
 
 class _PerguntaAppState extends State<_PerguntaApp>{
   var _perguntaSelecionada = 0;
   final _perguntas = [
-    'Qual é a sua cor favorita?',
-    'Qual é o seu animal favorito?',
-    'Qual seu instrutor favorito?'
+    {
+      'texto': 'Qual é a sua cor favorita?',
+      'respostas': ['Azul', 'Verde', 'Amarelo', 'Roxo']
+    },
+    {
+      'texto': 'Qual é o seu animal favorito?',
+      'respostas': ['Coelho', 'Girafa', 'Jacaré', 'Cobra']
+    },
+    {
+      'texto': 'Qual seu instrutor favorito?',
+      'respostas': ['Douglas', 'Romulo', 'Fabiano', 'Alexandre']
+    }
   ];
 
   void responder(){
-    if (_perguntaSelecionada < (_perguntas.length - 1)) {
+    if (temPergunta) {
       setState(() {
         _perguntaSelecionada++;      
       });
     }
+  }
+
+  bool get temPergunta {
+    return (_perguntaSelecionada < (_perguntas.length));
   }
 
   @override
@@ -29,15 +43,15 @@ class _PerguntaAppState extends State<_PerguntaApp>{
           foregroundColor: Theme.of(context).colorScheme.onPrimary,
           title: Text('Perguntas e Respostas'),
         ),
-        body: Column(
+        body: temPergunta ? Column(
           children: <Widget>[
-            Questao(_perguntas[_perguntaSelecionada]),
+            Questao(_perguntas[_perguntaSelecionada]['texto'] as String),
             Resposta('Verde', responder),
             Resposta('Azul', responder),
             Resposta('Amarelo', responder),
             Resposta('Branco', responder)          
           ],
-        )
+        ) : Resultado()
       ),
     );
   }  
