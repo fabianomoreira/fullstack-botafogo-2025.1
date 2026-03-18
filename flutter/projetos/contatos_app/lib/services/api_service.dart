@@ -15,4 +15,16 @@ class ApiService{
       throw Exception('Erro ao carregar pessoas: ${response.statusCode}');
     }
   }
+
+  static Future<void> createPessoa(Pessoa pessoa) async {
+    final response = await http.post(
+      Uri.parse(baseURL),
+      headers: {'Content-type': 'application/json'},
+      body: json.encode(pessoa.toJson()),
+    );
+
+    if(response.statusCode != 201){
+      throw Exception('Erro ao criar pessoa: ${response.statusCode}');
+    }
+  }
 }

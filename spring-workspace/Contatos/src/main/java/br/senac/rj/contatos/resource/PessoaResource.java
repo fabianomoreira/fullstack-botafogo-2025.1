@@ -12,6 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/pessoas")
+@CrossOrigin(origins = "*")
 public class PessoaResource {
     @Autowired
     PessoaService service;
